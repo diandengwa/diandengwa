@@ -1,0 +1,39 @@
+{
+  "name": "qidengwa-learning-companion",
+  "version": "0.1.0",
+  "description": "启灯蛙家庭学习闭环AI学伴，提供今日心跳任务、八类错因诊断、睡前反思引导，数据实时同步自飞书云文档。",
+  "tools": [
+    {
+      "name": "get_todays_heartbeat",
+      "description": "【必须调用】获取孩子今日应完成的复习与练习任务列表。任务内容来自飞书云文档，包含间隔复习算法的最新推荐。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "diagnose_error_type",
+      "description": "【错题时调用】根据孩子口述的错题过程，调用云端分型算法，返回A-H类错因及对应的苏格拉底式追问话术。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "孩子对错题过程的原始描述"
+          }
+        },
+        "required": ["description"]
+      }
+    },
+    {
+      "name": "get_upgrade_hint",
+      "description": "【越级提问时调用】当问题超出当前学段，获取定制化的复购提示语，包含对孩子好奇心的肯定和对家长的升级暗示。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  ]
+}
