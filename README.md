@@ -1,6 +1,6 @@
 # 🐸 点灯蛙 (DianWa) K12 家庭开源智能学伴生态
 
-> **"不是代你学，是为你点灯。" (Tech for Awakening, not for Answering)**
+> **"不是代你学，是点你悟。" (Tech for Awakening, not for Answering)**
 
 ![DianWa Banner](https://via.placeholder.com/1200x350/148F77/FFFFFF?text=DianWa+Open+Ecosystem+of+K12+Family+Learning)
 
