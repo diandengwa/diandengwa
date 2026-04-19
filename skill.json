@@ -1,7 +1,7 @@
 {
-  "name": "qidengwa-learning-companion",
+  "name": "diandengwa-learning-companion",
   "version": "0.1.0",
-  "description": "启灯蛙家庭学习闭环AI学伴，提供今日心跳任务、八类错因诊断、睡前反思引导，数据实时同步自飞书云文档。",
+  "description": "点灯蛙家庭学习闭环AI学伴，提供今日心跳任务、八类错因诊断、睡前反思引导，数据实时同步自飞书云文档。",
   "tools": [
     {
       "name": "get_todays_heartbeat",

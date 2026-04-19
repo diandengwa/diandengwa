@@ -1,13 +1,13 @@
-# 🐸 启灯蛙 (QiWa) K12 家庭开源智能学伴生态
+# 🐸 点灯蛙 (DianWa) K12 家庭开源智能学伴生态
 
-> **"不是代你学，是启你悟。" (Tech for Awakening, not for Answering)**
+> **"不是代你学，是为你点灯。" (Tech for Awakening, not for Answering)**
 
-![QiWa Banner](https://via.placeholder.com/1200x350/148F77/FFFFFF?text=QiWa+Open+Ecosystem+of+K12+Family+Learning)
+![DianWa Banner](https://via.placeholder.com/1200x350/148F77/FFFFFF?text=DianWa+Open+Ecosystem+of+K12+Family+Learning)
 
 欢迎来到大模型时代**最具人本关怀**的家庭教育开源项目！
 各大科技巨头制造的AI大模型（如豆包、Kimi）异常强大，但这无意间打开了潘多拉魔盒：**当遇到难题时，孩子们只要用手机一拍/一问，AI 就会直接把大段大段的完美解析和正确答案输出出来。这是降维满足，是对独立思考能力的毁灭性伤害。**
 
-**启灯蛙 (QiWa)** 是由多位极客家长发起的一套**防止AI直接给答案的开源指令干预层和工具网**。
+**点灯蛙 (DianWa)** 是由多位极客家长发起的一套**防止AI直接给答案的开源指令干预层和工具网**。
 
 ---
 
@@ -20,8 +20,8 @@
 
 1. 🧠 **`/K12-learning-prompts`**: 按 K12 四大学段细分的结构化提示词库，凝结了一线高管家长与教育学者的逻辑。
 2. 🔌 **`/integrations`**: 为您家里的“闲置生产力”提供三大入口打通指南！
-   - [无代码将【豆包 / Kimi】转换为启蛙专属智能体](./integrations/doubao-kimi-agent/)
-   - 将启蛙引导法植入家里的【百度小度/小爱同学等智能音箱】 (*敬请期待开发者共建*)
+   - [无代码将【豆包 / Kimi】转换为点蛙专属智能体](./integrations/doubao-kimi-agent/)
+   - 将点蛙引导法植入家里的【百度小度/小爱同学等智能音箱】 (*敬请期待开发者共建*)
    - 桥接【家用错题打印机】，不用手机也能打出引导和同类变式题 (*敬请期待开发者共建*)
 3. 🛠️ **`SKILL.md` 与 `skill.json`**: 面向深度极客的 MCP 协议原生配置文件。
 
@@ -38,7 +38,7 @@
 ## 🤝 参与共建 (Contributing)
 
 众人拾柴。我们需要懂代码的您开发智能硬件的桥接，我们也极度渴求**不懂代码但懂孩子**的老师/家长，在这个仓库留下您的**一句话启发语录**！
-详细玩法请看我们的 [启蛙宪章与共建指南 (CONTRIBUTING)](./CONTRIBUTING.md)。
+详细玩法请看我们的 [点蛙宪章与共建指南 (CONTRIBUTING)](./CONTRIBUTING.md)。
 
 ---
 
