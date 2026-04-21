@@ -1,7 +1,20 @@
+# 🐸 Diandengwa · Screen-free AI Learning Engine for K12
+
+> **AI that empowers thinking, not replaces it.**
+
+Diandengwa is an open-source **Socratic instruction layer** that stops AI from spoon-feeding answers to children. It wraps mainstream LLMs (Doubao, Kimi, ChatGPT, Claude, etc.) with a guided 4-step prompting flow:
+
+**① Accept emotion → ② Diagnose the error → ③ Give an analogy → ④ Ask a follow-up**
+
+No screen required. No direct answers allowed. Designed for Chinese K12 — open for global adaptation.
+
+> 🇨🇳 中文文档见下方 ↓
+
+---
+
 # 🐸 点灯蛙 (Diandengwa) K12 无屏 AI 学伴引擎
 
 > **AI 赋智于声，思考还给孩子。**
-> *Diandengwa — Screen-free AI learning companion for K12.*
 
 ![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
