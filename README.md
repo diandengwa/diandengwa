@@ -2,7 +2,7 @@
 
 > **AI that empowers thinking, not replaces it.**
 
-Diandengwa is an open-source **Socratic instruction layer** that stops AI from spoon-feeding answers to children. It wraps mainstream LLMs (Doubao, Kimi, ChatGPT, Claude, etc.) with a guided 4-step prompting flow:
+Diandengwa is an open-source **Socratic instruction layer** that stops AI from spoon-feeding answers to children. It wraps mainstream LLMs (Doubao, DeepSeek, Qwen, Kimi, ChatGPT, Claude, etc.) with a guided 4-step prompting flow:
 
 **① Accept emotion → ② Diagnose the error → ③ Give an analogy → ④ Ask a follow-up**
 
@@ -26,14 +26,14 @@ No screen required. No direct answers allowed. Designed for Chinese K12 — open
 
 在 AI 以光速重塑世界的时代，我们相信：**最好的教育技术，应当让孩子听见知识，而不是盯着屏幕。**
 
-点灯蛙 (Diandengwa) 是一套**防止 AI 直接给答案的开源指令干预层**。它把主流大模型（豆包、Kimi 等）接入苏格拉底式启发引导法，让孩子在没有屏幕干扰的环境中，真正学会独立思考。
+点灯蛙 (Diandengwa) 是一套**防止 AI 直接给答案的开源指令干预层**。它把主流大模型（豆包、DeepSeek、通义千问、Kimi 等）接入苏格拉底式启发引导法，让孩子在没有屏幕干扰的环境中，真正学会独立思考。
 
 ---
 
 ## 🎯 一句话效果对比
 
 | 没有点灯蛙 | 有点灯蛙 |
-|-----------|---------|
+|-----------|---------| 
 | **孩子**：「这道题怎么做？」<br>**AI**：直接输出答案和解题步骤 | **孩子**：「这道题怎么做？」<br>**AI**：「别急，慢慢来。先告诉老师，这道题卡在哪里了？是看不懂题目，还是有一步算不下去？」 |
 
 ---
@@ -53,8 +53,8 @@ No screen required. No direct answers allowed. Designed for Chinese K12 — open
 
 | 集成方案 | 状态 |
 |----------|------|
-| [将豆包/Kimi转换为点灯蛙专属智能体](./integrations/doubao-kimi-agent/) | ✅ 可用 |
-| 智能音箱接入指南 | 🔨 开发中 |
+| [豆包 / DeepSeek / 通义千问 智能体配置](./integrations/doubao-kimi-agent/) | ✅ 可用 |
+| [智能音箱接入指南（小爱/小度/天猫）](./integrations/smart-speaker/) | 🔨 第二阶段开发中 |
 | 家用打印机桥接方案 | 🔨 规划中 |
 
 ### 3. 🛠️ MCP 配置文件
@@ -66,9 +66,13 @@ No screen required. No direct answers allowed. Designed for Chinese K12 — open
 
 ## 🚀 快速开始
 
-### 方法一：30秒配置（最简单）
+### 方法一：3分钟配置（最简单，推荐新手）
 
-复制 `integrations/doubao-kimi-agent/README.md` 中的提示词，粘贴到任意 AI 助手的"角色设定"中。
+1. 根据孩子年级，从 `K12-learning-prompts/` 选择对应的学段提示词
+2. 复制提示词内容
+3. 粘贴到任意 AI 助手的"角色设定"或"系统提示词"中
+
+> 📖 详细操作步骤见 [豆包/DeepSeek/千问集成指南](./integrations/doubao-kimi-agent/)
 
 ### 方法二：MCP 协议接入
 
@@ -80,9 +84,11 @@ No screen required. No direct answers allowed. Designed for Chinese K12 — open
 
 | 功能 | 状态 | 预计 |
 |------|------|------|
-| 豆包/Kimi 集成 | ✅ 已完成 | - |
-| 智能音箱接入 | 🔨 开发中 | Q2 2026 |
-| 家用打印机桥接 | 🔨 规划中 | Q3 2026 |
+| 豆包/DeepSeek/千问 集成 | ✅ 已完成 | - |
+| 四学段提示词库 | ✅ 已完成 | - |
+| 智能音箱接入（小爱MiGPT优先） | 🔨 第二阶段 | Q2-Q3 2026 |
+| 小度/天猫官方技能上架 | 📋 规划中 | Q3-Q4 2026 |
+| 家用打印机桥接 | 📋 规划中 | Q3 2026 |
 | 更多学段提示词 | 📝 持续更新 | - |
 
 [View on GitHub Projects →](https://github.com/orgs/diandengwa/projects)
@@ -94,7 +100,7 @@ No screen required. No direct answers allowed. Designed for Chinese K12 — open
 详细玩法请看 [点灯蛙社区共建指南](./CONTRIBUTING.md)。
 
 我们欢迎：
-- 💻 **开发者**：贡献硬件桥接、MCP 工具
+- 💻 **开发者**：贡献硬件桥接、MCP 工具、智能音箱插件
 - 🎓 **教师/家长**：贡献"灵魂追问"——那些帮助孩子突破难题的一句话
 
 ---
