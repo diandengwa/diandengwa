@@ -146,7 +146,6 @@ MiGPT是专门为小爱音箱接入大模型而设计的开源工具，可以将
 - 📱 [APP端集成指南（豆包/DeepSeek/千问）](../doubao-kimi-agent/)
 - 🧠 [学段提示词库](../../K12-learning-prompts/)
 - 📚 [点灯蛙主仓库 README](../../README.md)
-- 💎 [升级官方云端版](../../commercial/upgrade-to-live-sync.md)
 
 ---
 
