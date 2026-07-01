@@ -1,112 +1,185 @@
-# 🐸 Diandengwa · Screen-free AI Learning Engine for K12
+# 点灯蛙 · 成都升学参谋
 
-> **AI that empowers thinking, not replaces it.**
+> **不是代你学，是启你悟**
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
-[![Star this repo](https://img.shields.io/github/stars/diandengwa/diandengwa?style=social)](https://github.com/diandengwa/diandengwa)
-
-[简体中文](./README_CN.md) · English
+[![Stars](https://img.shields.io/github/stars/diandengwa/diandengwa?style=social)](https://github.com/diandengwa/diandengwa)
 
 ---
 
-## 💡 Vision
+## 一盏灯的故事
 
-In an era where AI reshapes the world at the speed of light, we believe: **the best educational technology should let children hear knowledge — not stare at screens.**
+小时候，夏夜的田埂边，父亲提着马灯带我去照黄鳝。
 
-Diandengwa is an open-source **Socratic instruction layer** that stops AI from spoon-feeding answers to children. It wraps mainstream LLMs (Doubao, DeepSeek, Qwen, Kimi, ChatGPT, Claude, etc.) with a guided 4-step prompting flow:
+他从不下手替我捉，只是把灯举到合适的高度，让我自己看清泥水里藏着什么。
 
-**① Accept emotion → ② Diagnose the error → ③ Give an analogy → ④ Ask a follow-up**
+> "灯我帮你举，路你自己走。"
 
-No screen required. No direct answers allowed. Designed for Chinese K12 — open for global adaptation.
+很多年后我才明白——这就是**养虾哲学**。
 
----
+升学的路上，家长也是那个举灯的人。可太多人太焦虑，恨不得替孩子把虾捉进篓里，替孩子做完所有的选择、填完所有的志愿、扛完所有的纠结。
 
-## 🎯 One-Line Comparison
+但点灯蛙相信另一句话：
 
-| Without Diandengwa | With Diandengwa |
-|-------------------|-----------------|
-| **Child**: "How do I solve this?"<br>**AI**: Outputs answer + steps directly | **Child**: "How do I solve this?"<br>**AI**: "Take your time. Tell me, where exactly are you stuck? Can't understand the problem, or is there one step you can't get past?" |
+**家长的工作不是替孩子点亮那盏灯，而是帮孩子学会自己点灯。**
 
----
-
-## 📦 What's Inside
-
-### 1. 🧠 School-Level Prompt Library `/K12-learning-prompts`
-
-| Level | Focus | Status |
-|-------|-------|--------|
-| Primary Lower (Grades 1-3) | Interest Protection | ✅ Ready |
-| Primary Upper (Grades 4-6) | Learning Skills | ✅ Ready |
-| Middle School (Grades 7-9) | Exam Awareness | ✅ Ready |
-| High School (Grades 10-12) | Metacognition | ✅ Ready |
-
-### 2. 🔌 Integration Guides `/integrations`
-
-| Integration | Status |
-|-------------|--------|
-| [Doubao / DeepSeek / Qwen Agent Setup](./integrations/doubao-kimi-agent/) | ✅ Ready |
-| [Smart Speaker Guide (Xiaomi/Xiaodu/Tmall)](./integrations/smart-speaker/) | 🔨 Phase 2 |
-| Home Printer Bridge | 🔨 Planned |
-
-### 3. 🛠️ MCP Configuration Files
-
-- `SKILL.md` — MCP protocol config
-- `skill.json` — Structured definition
+所以我们不做代你学的工具。我们做那个帮你举灯的参谋——把政策照亮，把灰色地带说清，把选择权，交还给你和孩子。
 
 ---
 
-## 🚀 Quick Start
+## 点灯蛙是什么
 
-### Option 1: 3-Minute Setup (Simplest, Recommended)
+点灯蛙是一款**成都升学参谋**——基于公开政策数据的 K12 升学研判工具。
 
-1. Choose the prompt file matching your child's grade from `K12-learning-prompts/`
-2. Copy the prompt content
-3. Paste it into any AI assistant's "System Prompt" or "Character Settings"
+- **覆盖场景**：幼升小 · 小升初 · 随迁入学 · 中考
+- **覆盖区域**：成都 23 区县
 
-> 📖 Full guide: [Doubao/DeepSeek/Qwen Integration](./integrations/doubao-kimi-agent/)
+我们只做四件事，并把它做到极致：
 
-### Option 2: MCP Protocol Integration
-
-Use MCP-compatible tools (Cursor, Claude Desktop, etc.), clone this repo, and configure.
-
----
-
-## 📋 Roadmap
-
-| Feature | Status | ETA |
-|---------|--------|-----|
-| Doubao/DeepSeek/Qwen Integration | ✅ Done | - |
-| Four School-Level Prompts | ✅ Done | - |
-| Smart Speaker (Xiaomi MiGPT first) | 🔨 Phase 2 | Q2-Q3 2026 |
-| Xiaodu/Tmall Skills Listing | 📋 Planned | Q3-Q4 2026 |
-| Home Printer Bridge | 📋 Planned | Q3 2026 |
-| More Prompt Variations | 📝 Ongoing | - |
-
-[View on GitHub Projects →](https://github.com/orgs/diandengwa/projects)
+| 价值观 | 我们怎么做 |
+|---|---|
+| **政策透明** | 只引用公开政策原文，每一句研判都能点开溯源 |
+| **参谋研判** | 给依据、给推演、给风险，但不替你下"标准答案" |
+| **底线清晰** | 把政策红线划清楚，让你一眼知道什么不能碰 |
+| **隐私守护** | 数据本地存储，不上传任何家庭隐私信息 |
 
 ---
 
-## 🤝 Contributing
+## 核心功能
 
-See our [Community Contribution Guide](./CONTRIBUTING.md).
+### 四步裁决法
 
-We welcome:
-- 💻 **Developers**: Hardware bridges, MCP tools, smart speaker plugins
-- 🎓 **Teachers/Parents**: "Soul-follow-up questions" — the one-liners that help kids break through
+把一个模糊的升学疑问，拆解成可追溯的四步研判流程：
+
+1. **政策匹配** — 根据户籍、学籍、房产锁定适用条款
+2. **资格研判** — 逐条比对入学资格，给出「通过 / 不通过 / 需补充」
+3. **路径推演** — 列出所有可行升学路径，标注优先级与风险
+4. **底线校验** — 自动检查是否触碰政策红线
+
+每一步都留痕，每一句结论都能回溯到政策原文。
+
+### 8 段报告
+
+一份完整的升学研判报告，分八段讲清楚，段段有据：
+
+```
+① 家庭画像   ② 政策适用   ③ 资格研判   ④ 路径推演
+⑤ 灰色地带   ⑥ 风险提示   ⑦ 行动建议   ⑧ 政策溯源
+```
+
+不堆砌术语，不制造焦虑。把该说的说清楚，把能查的查到位。
+
+### 灰色地带分析
+
+升学政策里最难的，从来不是"行不行"，而是"政策没说清的那一块"。
+
+点灯蛙会把模糊地带单独拎出来，告诉你：
+
+- 哪些是**政策留的口子**（可以争取）
+- 哪些是**实操惯例**（看区县脸色）
+- 哪些是**前人踩过的坑**（别再走一遍）
+
+灰色，不是黑色。我们帮你看清它，而不是假装它不存在。
+
+### 政策日历
+
+成都升学节奏紧凑，错过一个时间节点，往往就是错过一年。
+
+政策日历按区县跟踪关键节点——信息采集、资格审核、志愿填报、录取公示，提前提醒，不让你在截止日前夜才慌张翻日历。
+
+### 黑话翻译
+
+"统筹安排""就近入学""两个一致""五年一学位""单校划片"……
+
+升学政策里的每一个黑话，点灯蛙都翻译成人话：附上政策出处，附上实操解读，附上不同区县的差异。让你看懂政策，而不是被政策看晕。
 
 ---
 
-## 📄 License
+## 技术栈
 
-Diandengwa core engine is **AGPL-3.0** open source.
-
-> Free for individuals and schools; commercial licensing required for SaaS re-wrapping.
-
-- → [View LICENSE](./LICENSE)
-- → [Commercial Licensing](./COMMERCIAL.md)
-- → [Security Policy](./SECURITY.md)
+| 层级 | 技术 | 说明 |
+|---|---|---|
+| 后端 | Python 3.12 + FastAPI | 研判引擎与政策检索服务 |
+| 数据 | SQLite | 政策库与研判记录，本地存储 |
+| 模型 | DeepSeek 大语言模型 | 政策理解与自然语言研判 |
+| 前端 | Alpine.js | 轻量交互，无需重型框架 |
 
 ---
 
-*Diandengwa — helping every child learn to think independently in the AI era.*
+## 快速开始
+
+```bash
+# 克隆仓库
+git clone https://github.com/diandengwa/diandengwa.git
+cd diandengwa
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 配置环境变量
+cp .env.example .env
+# 编辑 .env，填入你的 DeepSeek API Key
+
+# 初始化政策数据库（首次会拉取成都 23 区县公开政策数据）
+python scripts/init_db.py
+
+# 启动服务
+uvicorn app.main:app --reload --port 8000
+```
+
+浏览器打开 `http://localhost:8000`，开始你的第一次升学研判。
+
+---
+
+## 合规信息
+
+### 模型信息公示
+
+本产品使用 **DeepSeek 大语言模型** 提供自然语言研判能力。
+
+- 深度合成服务算法备案编号：**网信算备 110108970550101240011 号**
+
+### 备案信息
+
+- ICP 备案：**蜀ICP备 2026032729 号**
+- 公安备案：**川公网安备 51015602001931 号**
+
+### 免责声明
+
+点灯蛙是升学**参谋**，不是升学**决定者**。
+
+- 所有研判结论均基于公开政策数据生成，仅供参考，**不构成任何升学承诺**；
+- 升学政策以教育主管部门正式发布文件为准，点灯蛙不承担因研判偏差导致的任何后果；
+- 最终升学决策，请家长结合实际情况，咨询所在学校与教育主管部门。
+
+> 我们帮你举灯，但路，得你自己走。
+
+---
+
+## 贡献指南
+
+点灯蛙欢迎每一位关心成都升学的家长、老师和开发者。
+
+- **政策纠错** — 发现政策引用有误，欢迎提 Issue 并附上官方原文链接
+- **数据补充** — 你的区县政策有更新，欢迎提交 Pull Request
+- **黑话词典** — 遇到看不懂的升学黑话，欢迎来补充条目
+- **研判规则** — 有更严谨的研判逻辑，欢迎一起完善裁决法
+
+提交前请阅读 [贡献指南](./CONTRIBUTING.md)。所有政策数据改动，需附官方出处。
+
+---
+
+## License
+
+本项目采用 **AGPL-3.0** 开源协议。
+
+- 个人与学校免费使用
+- 商业 SaaS 二次封装需另行申请商用授权
+
+→ [查看 LICENSE](./LICENSE)
+
+---
+
+*点灯蛙 — 不是代你学，是启你悟。*
+*帮你看清政策，把选择权交还给你和孩子。*
